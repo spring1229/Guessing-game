@@ -9,9 +9,9 @@ function get_file {
 
 correct=$(get_file)
 
-while [[$guess -ne $correct]]
+while [[ $guess -ne $correct ]]
 do 
-        if [[ $guess -gt $correct]]
+        if [[ $guess -gt $correct ]]
         then
             echo 'The guessing number is too big!'
         else
